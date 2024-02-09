@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="Student Tuleuov Aman"
+        android:textColor="#FF0020"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="Welcome to the website of Tuleuov Aman Kaldyuly"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="#A07CE1"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/asd"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:textColor="#4094BA"
+        android:text="My bio Profie"
+        android:textSize="25dp"
+        android:textStyle="italic|bold"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="508dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="268dp"
+        android:layout_height="52dp"
+        android:layout_margin="15dp"
+        android:textColor="#D6CA5B"
+        android:layout_gravity="center"
+        android:text="My Profile on YT"
+        android:textSize="25dp"
+        android:textStyle="italic|bold"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="444dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="242dp"
+        android:textColor="#B7C52C"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:text="Camera"
+        android:textSize="24dp"
+        android:textStyle="italic|bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+</LinearLayout>
